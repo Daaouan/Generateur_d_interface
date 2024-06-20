@@ -69,42 +69,42 @@ For developing the "Générateur d'Interface DB" application, the following tech
 
 ### Database Connection
 
-![Database Connection](images/database_connection.png)
+![Database Connection](https://github.com/Frikh-Said/Generateur_d_interface/assets/123327203/16c1ee83-b9ea-4cda-8c7a-c0e2af2e3947)
 *Figure 1: Database Connection Interface*
 
 This screenshot shows the interface where users can enter database connection details such as database type, server address, database name, and login credentials.
 
 ### Table Display
 
-![Table Display](images/table_display.png)
+![Table Display](https://github.com/Frikh-Said/Generateur_d_interface/assets/123327203/420020aa-5d23-4b56-8ad5-5dd60b27e194)
 *Figure 2: Table Display Interface*
 
 This image displays the interface that lists the tables available in the connected database. Users can select a table to view its contents or perform operations.
 
 ### Table Content Visualization
 
-![Table Content](images/table_content.png)
+![Table Content](https://github.com/Frikh-Said/Generateur_d_interface/assets/123327203/3366db1d-1743-4cdd-9bdd-c0508ff64535)
 *Figure 3: Table Content Visualization*
 
 This screenshot shows how the application displays the content of a selected table in a structured tabular format, allowing users to browse existing records.
 
 ### Add Record
 
-![Add Record](images/add_record.png)
+![Add Record](https://github.com/Frikh-Said/Generateur_d_interface/assets/123327203/701e68c9-3d74-4a26-a30a-63f15baf8d75)
 *Figure 4: Add Record Form*
 
 This image illustrates the form used to add new records to a table. The fields are dynamically generated based on the table's structure.
 
 ### Edit Record
 
-![Edit Record](images/edit_record.png)
+![Edit Record](https://github.com/Frikh-Said/Generateur_d_interface/assets/123327203/0cc514e9-ca29-4e5a-b1dd-262aed9ea162)
 *Figure 5: Edit Record Form*
 
 This screenshot shows the form used to update an existing record. The interface is similar to the add record form, allowing easy editing of records.
 
 ### Delete Record
 
-![Delete Record](images/delete_record.png)
+![Delete Record]([images/delete_record.png](https://github.com/Frikh-Said/Generateur_d_interface/assets/123327203/e224d9e7-5c8e-4c26-a182-765bd5a662a2))
 *Figure 6: Delete Record Option*
 
 This image highlights the delete button available for each record in the table view, allowing users to delete records from the database.
