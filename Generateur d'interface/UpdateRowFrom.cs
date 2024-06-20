@@ -45,17 +45,25 @@ namespace Generateur_d_interface
                 flowLayoutPanel1.Controls.Add(textBox);
             }
 
-            Button updateButton = new Button
+            /*Button updateButton = new Button
             {
-                Text = "Update",
+                Text = "Uppdate",
                 AutoSize = true,
                 Location = new Point(200, 50 + (50 * (flowLayoutPanel1.Controls.Count / 2)))
             };
             updateButton.Click += UpdateButton_Click;
 
-            flowLayoutPanel1.Controls.Add(updateButton);
+            flowLayoutPanel1.Controls.Add(updateButton);*/
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Hide the current form
+            OpsTablesForm opsTablesForm = new OpsTablesForm(_connectionString);
+            opsTablesForm.ShowDialog();
+            // Close the OpsTablesForm after AddRowToTableForm is closed
+            this.Close();
+        }
         private void UpdateButton_Click(object sender, EventArgs e)
         {
             using (MySqlConnection connection = new MySqlConnection(_connectionString))
