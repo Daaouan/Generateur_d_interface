@@ -104,7 +104,7 @@ This screenshot shows the form used to update an existing record. The interface 
 
 ### Delete Record
 
-![Delete Record]((https://github.com/Frikh-Said/Generateur_d_interface/assets/123327203/e224d9e7-5c8e-4c26-a182-765bd5a662a2))
+![Delete Record](https://github.com/Frikh-Said/Generateur_d_interface/assets/123327203/e224d9e7-5c8e-4c26-a182-765bd5a662a2)
 *Figure 6: Delete Record Option*
 
 This image highlights the delete button available for each record in the table view, allowing users to delete records from the database.
